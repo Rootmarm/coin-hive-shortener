@@ -4,59 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "83e7d2d11af7850719bfd240b23aa6d8",
+    "content-hash": "7b601bbf80d9d678d0aae1cd8c240df3",
     "packages": [
-        {
-            "name": "fleshgrinder/url-validator",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Fleshgrinder/php-url-validator.git",
-                "reference": "7994026e45d9ce1612599e569ca3cc80c785acb5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Fleshgrinder/php-url-validator/zipball/7994026e45d9ce1612599e569ca3cc80c785acb5",
-                "reference": "7994026e45d9ce1612599e569ca3cc80c785acb5",
-                "shasum": ""
-            },
-            "require": {
-                "ext-intl": "*",
-                "php": ">=5.3"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.4"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Fleshgrinder\\Validator\\": [
-                        "src/Fleshgrinder/Validator"
-                    ]
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Unlicense"
-            ],
-            "authors": [
-                {
-                    "name": "Richard Fussenegger",
-                    "email": "richard@fussenegger.info",
-                    "homepage": "http://richard.fussenegger.info"
-                }
-            ],
-            "description": "A regular expression to validate URLs.",
-            "keywords": [
-                "regex",
-                "regexp",
-                "regular expression",
-                "uri",
-                "url",
-                "validation"
-            ],
-            "time": "2016-03-15T19:35:48+00:00"
-        },
         {
             "name": "noodlehaus/config",
             "version": "0.8.2",
@@ -119,11 +68,12 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "fleshgrinder/url-validator": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": "^7.0",
+        "ext-curl": "^7.1"
+    },
     "platform-dev": []
 }
