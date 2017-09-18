@@ -1,6 +1,7 @@
 {
     "require": {
         "fleshgrinder/url-validator": "dev-master",
-        "Noodlehaus/Config": "^0.8.2"
+        "Noodlehaus/Config": "^0.8.2",
+        "php": "^7.0"
     }
 }
