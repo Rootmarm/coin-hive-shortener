@@ -6,7 +6,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 //Variables
     $longUrl = $_POST['longurl'];
     $hashes = '2048';
-    $secret = 'ESqNqEPs50xsgH2xWINT8pxS1CJFhH3L';
+    $secret = 'YOUR_SECRET_HERE';
     $ch = curl_init();
 
 //Curl
