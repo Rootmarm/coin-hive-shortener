@@ -1,13 +1,20 @@
 <?php
-require_once __DIR__.'/vendor/autoload.php';
+
+require_once __DIR__.'../vendor/autoload.php';
+
+$config = include('config.php');
+
 //Checking for POST
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
      
 //Variables
     $longUrl = $_POST['longurl'];
-    $hashes = '2048';
-    $secret = 'YOUR_SECRET_HERE';
+//    $hashes = '2048';
+//    $secret = 'YOUR_SECRET_HERE';
     $ch = curl_init();
+    $hashes = $config['hashes'];
+    $secret = $config['secret'];
+
 
 //Curl
 curl_setopt($ch, CURLOPT_URL, "https://api.coin-hive.com/link/create");

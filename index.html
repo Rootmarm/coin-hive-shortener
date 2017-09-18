@@ -65,7 +65,7 @@
                 var formData = $("#shortlink").serialize();
                 $.ajax({
                     type: "POST",
-                    url: "./include/short.php",
+                    url: "include/short.php",
                     data: formData,
                     success: function(data) {
                         $("#loading").html(data);
