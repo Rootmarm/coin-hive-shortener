@@ -1,0 +1,5 @@
+{
+    "require": {
+        "fleshgrinder/url-validator": "dev-master"
+    }
+}
