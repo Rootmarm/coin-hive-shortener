@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 
     //Curl
-    curl_setopt($ch, CURLOPT_URL, "https://api.coin-hive.com/link/create");
+    curl_setopt($ch, CURLOPT_URL, "https://api.coinhive.com/link/create");
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
     curl_setopt($ch, CURLOPT_POSTFIELDS, "url=$longUrl&hashes=$hashes&secret=$secret");
     curl_setopt($ch, CURLOPT_POST, 1);
