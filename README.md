@@ -1,6 +1,6 @@
 ###### coin-hive-shortener
 
-### php implementation of [coin-hive](https://coin-hive.com)'s in-browser proof-of-work monero miner link shortener
+### php implementation of [coinhive](https://coinhive.com)'s in-browser proof-of-work monero miner link shortener
 
 
 This is just a quick and dirty way to put the coin-hive link shortener into an actual php site
